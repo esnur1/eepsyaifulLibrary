@@ -2,14 +2,15 @@ package com.esnur.eepsyaifulLibrary;
 
 import android.content.Context;
 import android.widget.Toast;
-public class KirimPesan {
+
+public class Kirim {
     Context context;
     String pesan;
 
-    public KirimPesan() {
+    public Kirim() {
     }
 
-    public KirimPesan(Context context, String pesan) {
+    public Kirim(Context context, String pesan) {
         this.context = context;
         this.pesan = pesan;
     }
