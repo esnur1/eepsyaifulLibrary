@@ -1,0 +1,3 @@
+include ':eepsyaifulLibrary'
+include ':app'
+rootProject.name = "praktikum11Library"
